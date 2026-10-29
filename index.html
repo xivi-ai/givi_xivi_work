@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="only light">
+<title>GIVI Genesis — Synthetic data for non-invasive bioelectric sensing</title>
+<meta name="description" content="GIVI Genesis is a physics-grounded synthetic data engine for non-invasive bioelectric sensing. It renders the body's electric field so medical AI can learn from it.">
+<meta property="og:title" content="GIVI Genesis — Synthetic data for non-invasive bioelectric sensing">
+<meta property="og:description" content="Physics-grounded simulation that generates the bioelectric data medical AI is starved of.">
+<link rel="icon" href="assets/givi-mark.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css?v=1">
+<link rel="stylesheet" href="assets/page.css?v=1">
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#top" aria-label="GIVI home">
+      <img src="assets/givi-mark.svg" alt="">
+      <b>GIVI</b><span>by Xivi Innovations</span>
+    </a>
+    <nav class="links">
+      <a href="#problem">Problem</a>
+      <a href="#approach">Approach</a>
+      <a href="#team">Team</a>
+      <a href="https://xivi.work">XIVI</a>
+      <a class="btn primary sm" href="#partner">Request whitepaper</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">Healthtech · GIVI Genesis</p>
+      <h1>Synthetic data for non-invasive bioelectric sensing.</h1>
+      <p class="lead">GIVI Genesis is a physics-grounded simulation engine. It renders the body's electric field so medical AI can learn from signals that are hard to collect.</p>
+      <div class="cta">
+        <a class="btn primary" href="#partner">Request whitepaper</a>
+        <a class="btn" href="#approach">See the approach</a>
+      </div>
+      <p class="founders">Gestational Intelligence for Verifiable Insights</p>
+    </div>
+
+    <div class="panel" aria-label="GIVI Genesis pipeline">
+      <div class="pbar"><span class="dot live"></span>GIVI Genesis<span class="pbar-r">Simulation to edge</span></div>
+      <div class="step"><small>01 · Simulate</small><b>Bioelectric signals</b><span>Physics-grounded generation of the body's electric field.</span></div>
+      <svg class="wave" viewBox="0 0 320 70" role="img" aria-label="Example synthetic bioelectric waveform">
+        <path d="M0 40 L40 40 L52 40 L60 28 L68 40 L84 40 L92 46 L100 8 L108 62 L116 40 L140 40 L158 30 L176 40 L214 40 L226 40 L234 28 L242 40 L258 40 L266 46 L274 8 L282 62 L290 40 L320 40" />
+      </svg>
+      <div class="step"><small>02 · Generate</small><b>Synthetic data</b><span>Training data without a physical collection bottleneck.</span></div>
+      <div class="step"><small>03 · Deploy</small><b>Edge AI</b><span>Verified models for offline-capable environments.</span></div>
+      <p class="note">Illustrative waveform.</p>
+    </div>
+  </div>
+</section>
+
+<div class="proof" aria-label="Status">
+  <div class="wrap">
+    <div class="prow">
+      <span class="plabel">Status</span>
+      <div class="pitems tested"><span>Core simulation engine validated</span></div>
+    </div>
+    <div class="prow">
+      <span class="plabel">Seeking</span>
+      <div class="pitems reg"><span>Health-system pilots</span><span>Deployment partners</span></div>
+    </div>
+  </div>
+</div>
+
+<section id="problem" class="tint">
+  <div class="wrap">
+    <p class="eyebrow">Problem and insight</p>
+    <h2>Training data is the bottleneck.</h2>
+    <div class="two">
+      <div>
+        <h3>The problem</h3>
+        <p>Every non-invasive fetal AI is short of the same data. You cannot collect it without a device, and you cannot validate the device without the data.</p>
+      </div>
+      <div>
+        <h3>The insight</h3>
+        <p>The physics can be computed forward. The data can be generated, and the sensor designed, in simulation on GPUs.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="approach">
+  <div class="wrap">
+    <p class="eyebrow">Approach</p>
+    <h2>Simulation, synthetic data, edge AI.</h2>
+    <div class="cols c3">
+      <div><h3>Simulation</h3><p>Physics-grounded generation of bioelectric signals.</p></div>
+      <div><h3>Synthetic data</h3><p>Train AI models without being limited by physical data collection.</p></div>
+      <div><h3>Edge AI</h3><p>Deploy robust, verified models to offline-capable environments.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="partner" class="dark">
+  <div class="wrap">
+    <p class="eyebrow">Partner with us</p>
+    <h2>Request the GIVI Genesis whitepaper.</h2>
+    <p class="sec-intro">We are looking for health-system pilots and deployment partners. Leave your work email and we will send the whitepaper.</p>
+    <form class="signup" action="https://formsubmit.co/xivi.tech@gmail.com" method="POST" id="whitepaper-form">
+      <input type="hidden" name="_subject" value="New GIVI whitepaper request">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="table">
+      <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+      <input type="hidden" name="_next" value="https://givi.xivi.work/?success=true">
+      <label class="sr" for="email">Work email address</label>
+      <input type="email" id="email" name="email" placeholder="Work email address" required autocomplete="email">
+      <button class="btn primary" type="submit">Request whitepaper</button>
+    </form>
+    <p class="form-note" id="form-note">We use your address only to send the whitepaper. <a href="privacy.html">Privacy policy</a></p>
+  </div>
+</section>
+
+<section id="team">
+  <div class="wrap">
+    <p class="eyebrow">Team</p>
+    <h2>Who we are.</h2>
+    <div class="grid g3">
+      <div class="card person"><div class="avatar">CN</div><h3>Chinmaya Naik</h3><div class="role">Co-Founder and CEO</div>
+        <p>Computer Science engineer with 7+ years in product development and management.</p></div>
+      <div class="card person"><div class="avatar">AN</div><h3>Abhinav Navneet</h3><div class="role">Co-Founder and CTO</div>
+        <p>Computer Science engineer leading machine learning and firmware, with 5+ years in technology and research.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="tint contact">
+  <div class="wrap">
+    <p class="eyebrow">Contact</p>
+    <h2>Talk to us.</h2>
+    <p class="sec-intro">Write to us about pilots, deployment or the whitepaper.</p>
+    <div class="cta"><a class="btn primary" href="mailto:xivi.tech@gmail.com?subject=GIVI%20Genesis">xivi.tech@gmail.com</a></div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="logo">
+      <a href="https://xivi.work" aria-label="XIVI"><img src="assets/xivi-logo.png" alt="XIVI"></a>
+      <p>© 2026 Xivi Innovations Private Limited. All rights reserved.</p>
+    </div>
+    <p><a href="privacy.html">Privacy policy</a> · givi.xivi.work</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  if (location.search.indexOf('success=true') === -1) return;
+  var n = document.getElementById('form-note'), f = document.getElementById('whitepaper-form');
+  if (n) n.textContent = 'Thank you. We have your request and will be in touch.';
+  if (f) f.style.display = 'none';
+  var s = document.getElementById('partner'); if (s && s.scrollIntoView) s.scrollIntoView();
+})();
+</script>
+</body>
+</html>
