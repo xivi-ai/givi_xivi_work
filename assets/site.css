@@ -283,3 +283,9 @@ section.contact{padding:68px 0 72px}
 .defend.solo b{font-size:18px;margin-bottom:6px}
 
 :root{--lt:#9db9f2;--m1:#aab9d4;--on:#e8edf6}
+
+/* classes that replace former inline styles */
+.mt36{margin-top:36px}
+[hidden]{display:none !important}
+
+.legal .mt36{margin-top:36px}
